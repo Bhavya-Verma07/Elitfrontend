@@ -1,0 +1,21 @@
+.startbutton{
+    height: "400px";
+    width:"600px";
+    background-image: url(../bgimages/notebook-pen-near-travel-stuff_23-2147793439.avif);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(130, 115, 115);
+    
+}
+
+.Startbtn{
+   
+background-color: rgb(97, 219, 97);
+border-radius: 5px;
+height: 120px;
+width: 220px;
+font-size: 90px;
+margin: 50%;
+color: azure;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

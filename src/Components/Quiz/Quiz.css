@@ -1,0 +1,121 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: rgb(216, 190, 123); */
+  height: 100px;
+  width: 650px;
+  border-width: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.optiondiv {
+  
+  background-color: rgb(198, 170, 11);
+  flex: 0 0 50px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  height: fit-content;
+  border-radius: 10px;
+  /* background-color: "green"; */
+}
+.optiondiv:hover{
+    background-color: yellow;
+}
+
+.boxdiv {
+  width: 100%;
+  height: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.levels {
+  margin: auto;
+  background-color: rgba(50, 17, 7, 0.76);
+  height: 30px;
+  width: fit-content;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 10px;
+  
+  margin-top: 20px;
+}
+
+.queBox {
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  border-radius: 5px;
+  border-color: gray;
+  border-width: 10px;
+  background-color: rgb(250, 238, 209);
+  padding: 10px;
+}
+
+.resetdiv {
+    cursor: pointer;
+    /* background-color: rgb(120, 165, 42); */
+    margin-left: 70px;
+    height: 30px;
+    font-size: 25px;
+    width: fit-content;
+    text-align: center;
+    margin-top: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    background-color: rgb(42, 165, 163);
+  
+    border-radius: 5px;
+  }
+
+  .resetdiv:hover {
+    background-color: rgb(47, 220, 255);
+  }
+
+.savenextdiv {
+  cursor: pointer;
+  background-color: rgb(120, 165, 42);
+  margin-left: 70px;
+  height: 30px;
+  font-size: 25px;
+  width: fit-content;
+  text-align: center;
+  margin-top: 15px;
+  color: whitesmoke;
+  padding: 2px;
+  border-radius: 5px;
+}
+.savenextdiv:hover {
+  background-color: greenyellow;
+}
+.exitdiv {
+  cursor: pointer;
+  /* background-color: rgb(120, 165, 42); */
+  margin-left: 70px;
+  height: 30px;
+  font-size: 25px;
+  width: fit-content;
+  text-align: center;
+  margin-top: 15px;
+  color: whitesmoke;
+  padding: 5px;
+  background-color: brown;
+
+  border-radius: 5px;
+}
+.exitdiv:hover {
+  background-color: red;
+}
+
+
+.insideQbox {
+background-color: whitesmoke;
+height: 200px;
+width: fit-content;
+margin-left: 40px;
+border-radius: 10px;
+padding: 20px;
+}
